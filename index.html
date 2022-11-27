@@ -1,0 +1,918 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Newsletter</title>
+</head>
+<body>
+    <div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <style>@font-face {
+        font-family: 'Ember';
+        font-style: bold;
+        font-weight: 600;
+        src: local('Ember'), url(https://m.media-amazon.com/images/G/01/outbound/AmazonEmber_Bd._CB1515450239_.WOFF) format('woff');
+          }
+      @font-face {
+        font-family: 'Ember';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Ember'), url(https://m.media-amazon.com/images/G/01/outbound/AmazonEmber_Rg._CB1515450239_.WOFF) format('woff');
+          }
+      @font-face {
+        font-family: 'Ember';
+        font-style: light;
+        font-weight: 200;
+        src: local('Ember'), url(https://m.media-amazon.com/images/G/01/outbound/AmazonEmber_Lt._CB1515450239_.WOFF) format('woff');
+          }
+      @font-face {
+        font-family: 'Ember';
+        font-style: medium;
+        font-weight: 500;
+        src: local('Ember'), url(https://m.media-amazon.com/images/G/01/outbound/AmazonEmber_Md._CB1515450239_.WOFF) format('woff');
+          }
+        /* RESET STYLES */
+      body {
+          margin: 0 !important;
+          padding: 0;
+          background-color: #ffffff;
+      }
+      table {
+          border-spacing: 0;
+          font-family: sans-serif;
+          color: #232F3E;
+          margin:0 auto !important;
+      }
+      table, table td { border-collapse:collapse !important; }
+      table th { margin:0 !important; padding:0 !important; font-weight:normal; }
+      td {
+          padding: 0;
+      }
+      img {
+          border: 0;
+      }
+         td, a, span {
+      word-break:keep-all !important;
+        }
+        body, table, td, a {  -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+        /* PAGE STYLES */
+        h1 {display:block; text-decoration:none; font-family: Ember, Helvetica, Arial, sans-serif; font-size:46px; font-weight:100; line-height: 46px;}
+        h2 {display:block; text-decoration:none; font-family: Ember, Helvetica, Arial, sans-serif; font-size:36px; font-weight:400; line-height: 38px;}
+        h3 {display:block; text-decoration:none; font-family: Ember, Helvetica, Arial, sans-serif; font-size:24px; font-weight:100; line-height: 24px;}
+        h4 {display:block; text-decoration:none; font-family: Ember, Helvetica, Arial, sans-serif; font-size:20px; font-weight:900; line-height: 22px;}
+        p {text-decoration:none; font-family: Ember, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; line-height: 16px;}
+        div[style*="margin: 16px 0"] { 
+          margin:0 !important;
+        }
+        /* iOS BLUE LINKS */
+          .appleBody a { color:#68440a; text-decoration: none; }
+          .appleFooter a { color:#999999; text-decoration: none; }  
+        /* A nice and clean way to target phone numbers you want clickable and avoid a mobile phone from linking other numbers that look like, but are not phone numbers.  Use these two blocks of code to "unstyle" any numbers that may be linked.  The second block gives you a class to apply with a span tag to the numbers you would like linked and styled.
+        Inspired by Campaign Monitor's article on using phone numbers in email: http://www.campaignmonitor.com/blog/post/3571/using-phone-numbers-in-html-email/.
+        */
+        .wrapper {
+          width: 100%;
+          table-layout: fixed;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+      }
+      .webkit {
+          max-width: 640px;
+          margin: 0 auto;
+      }</style>
+      <div>
+        <div></div>
+      </div>
+      <style>a[x-apple-data-detectors] {
+              color: inherit !important;
+              text-decoration: inherit !important;
+              font-size: inherit !important;
+              font-family: inherit !important;
+              font-weight: inherit !important;
+              line-height: inherit !important;
+      }</style>
+      <div>
+        <div></div>
+      </div>
+      <style>@media screen and (max-width:480px){
+            .full100 {
+              width:100% !important;
+              max-width:100% !important;
+          }
+          .half50{
+              width:50% !important;
+              max-width:50% !important;
+          }
+          .two-column .column,
+          .three-column .column {
+              max-width: 100% !important;
+          }
+          .two-column img {
+              max-width: 100% !important;
+          }
+          .three-column img {
+              max-width: 100% !important;
+          }
+          .maxWidth100 {
+              max-width: 100% !important;
+          }
+        /* general classes */  
+        .alignCenter {
+            text-align:center !important;
+            margin:0 auto !important;
+            float:none !important;
+        }
+        .alignRight {
+          text-align:right !important;
+        }
+        .alignLeft {
+          text-align:left !important;
+        }
+        .mWidth305 {
+          max-width:306px !important;
+        }
+        .mWidth100 {
+            max-width:100% !important;
+        }
+        .container {
+          width:98% !important;
+          }
+          .stackRTL { direction: rtl !important;}
+          .stackLTR {direction: ltr !important;}
+        .hideAll { display:none !important; }
+        .hide { display:none !important; line-height:0 !important;}
+        .tdwrap { display:inline-block !important; }
+        .block_wrap { display:block !important; padding:0 !important; margin:0 auto !important;}
+        .block { display:block !important; }
+        .valignbottom { vertical-align:bottom !important; }
+        .valigncenter { vertical-align:middle !important; }
+        .rel { position:relative !important; }
+        .abs { position:absolute !important; }
+        .show { display:block !important; width:auto !important; overflow:visible !important; float:none !important; max-height:inherit !important; line-height:inherit !important; }
+        .showOnMobile { display:block !important; max-height:none !important; line-height:inherit !important; }
+          .bgHero { background-image: url('') !important; }
+        .bgefefef { background-color:#efefef !important; }
+        .marginr66 { margin-right:66px !Important; }
+        .marginl0 { margin-left:0px !Important; }
+        .marginl66 { margin-left:66px !Important; }
+        .aligncenter { text-align:center !important; }
+        .alignleft { text-align:left !important; }
+        .font10{ font-size:10px !important; }
+        .font11{ font-size:11px !important; line-height:11px !important; }
+        .font12{ font-size:12px !important; }
+        .font13{ font-size:13px !important; }
+        .font14{ font-size:14px !important; }
+        .font16{ font-size:16px !important; }
+        .font20{ font-size:20px !important; }
+        .font21{ font-size:21px !important; }
+        .font24{ font-size:24px !important; line-height:26px !important; }
+        .lineh16{ line-height:16px !important; }
+        .lineh22{ line-height:22px !important; }
+        .line16{ font-size:16px !important; }
+        .line17{ font-size:17px !important; }
+        /*widths*/
+        .full { width:100% !important;
+        max-width:100% !important;}
+        .deviceWidth { width:320px !important; }
+        .width0 { width:0px !important; }
+        .width12 {width:12px !important; line-height:12px;}
+        .width52 { width:52px !important; }
+        .width100 { width:100px !important; max-width:100px !important;}
+        .width147 { width:147px !important; max-width:147px !important;}
+        .width282 { width:282px !important; }
+        .width294 { width:294px !important; }
+        .width298 { width:298px !important; }
+        .width300 { width:300px !important; }
+        .width306 { width:306px !important; max-width:306px !important; }
+        .width320 { width:320px !important; min-width:320px !important; }
+        .width_30 { width:30% !important; }
+        .width_40 { width:40% !important; }
+        .width_50 { width:50% !important; }
+        .width_60 { width:60% !important; }
+        .width_70 { width:70% !important; }
+        .width_80 { width:80% !important; }
+        .width_90 { width:90% !important; 
+            max-width:90% !important;
+        }
+        .feFooter { width:290px !Important; }
+        .feDevicewidth { width:290px !Important; }
+        /*heights*/
+        .height6 {height:6px !important; line-height:6px !important;}
+        .height12 {height:12px !important; line-height:12px !important;}
+        .height24 {height:24px !important;}
+        .hauto { height:auto !important; }
+        .height0 { height:0px !important; }
+        /*padding*/
+        .padding0 { padding:0px !important; }
+        .paddingt6 { padding-top:6px !important; }
+        .paddingt10 { padding-top:10px !important; }
+        .paddingt12 { padding-top:12px !important; }
+        .paddingr0 {padding-right:0px !important; }
+        .paddingr10 {padding-right:10px !important; }
+        .paddingr20 {padding-right:20px !important; }
+        .paddingb5 { padding-bottom:5px !important; }
+        .paddingb6 { padding-bottom:6px !important; }
+        .paddingb7 { padding-bottom:7px !important; }
+        .paddingb10 { padding-bottom:10px !important; }
+        .paddingb12 { padding-bottom:12px !important; }
+        .paddingb20 { padding-bottom:20px !important; }
+        .paddingl0 {padding-left:0px !important; }
+        .paddingl10 {padding-left:10px !important; }
+        .paddingl20 {padding-left:20px !important; }
+        .paddinglr60 {padding-left:60px !important; padding-right:60px !important; }
+        /*floats*/
+        .fl { float:left !important;  }
+        .fr { float:right !important; } 
+        .wrap { float:block !important; }
+        .clear { clear:both !important; }
+      }</style>
+      <div><!-- [if gte mso 9]>
+          <xml>
+              <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+              </o:OfficeDocumentSettings>
+          </xml>
+          <style type="text/css">
+              .mm15 { padding:0px !important; margin-left:15px !important; margin-right:15px !important; }
+              .ml10 { padding:0px !important; margin-left:10px !important; }
+              .mr10 { padding:0px !important; margin-right:10px !important; }
+          </style>
+          <![endif]--> <!-- [if mso]>
+      <style>
+      body, a, span, td, table, div, p {
+      font-family: Arial, Helvetica, sans-serif !important
+      }
+      </style>
+      <![endif]-->
+        <center>
+          <table style="min-width: 100%; padding: 0; margin: 0 auto!important; -webkit-text-size-adjust: none;" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+            <tbody>
+              <tr>
+                <td style="min-width: 100%; max-width: 100%; width: 100%;" align="center" width="100%">
+                  <table class="container hide" style="width: 640px;" border="0" width="640" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0 8px; text-align: center; font-size: 10px; font-family: Ember, Helvetica, Arial, sans-serif; line-height: 16px; color: #666666;">
+                          <table class="hide" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="hide" style="vertical-align: bottom; text-align: left; font-family: Ember, Helvetica, Arial, sans-serif; font-size: 10px; line-height: 16px; color: #666666;" align="left">Prime Early Access Sale ends tonight. 
+                                  <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=2XQ56EOTSX5LV&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2F%2Fgp%2F..%2Fref%3Dpe_62386810_674350900_pe_super%2F..%2Fearlyaccess&amp;H=KK3BSBIMKGJPOPICGE8RSEA0JDOA&amp;ref_=pe_62386810_674350900_pe_super" style="color: #666666; text-decoration: underline;">Shop now</a>
+                                </td>
+                                <td class="aligncenter" align="right">
+                                  <div class="hide" style="display: inline-block;">&nbsp;</div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="line-height: 4px;" height="4">
+                                  <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width="1" height="1">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div style="height: 0px; max-height: 0px; line-height: 0px; font-size: 0px; overflow: hidden;">
+                    <img src="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=MF5BTI7YYHSX&amp;T=O&amp;U=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&amp;H=62RTTPLF96SJTWXCN7HRXK05CAUA&amp;ref_=pe_62386810_674350900_opens" width="1" height="1">
+                  </div>
+      <!-- Corporate Header with Nav -->
+                  <table class="width_90" style="width: 640px;" border="0" width="640" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td style="line-height: 4px;" bgcolor="#232f3e" height="4">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" alt="= = = = = = = = = = = = = = = = = = = =" width="1" height="1">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="line-height: 10px;" height="10">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="width: 640px;" border="0" width="640" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <th class="full block aligncenter" align="left">
+                          <div style="display: inline-block;">
+                            <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=1D60SDDRTLPY8&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fref_%3Dpe_62386810_674350900&amp;H=1EMRROPDAO2Y6TAXQADAPDJLRV4A&amp;ref_=pe_62386810_674350900">
+                              <img class="alignCenter" style="display: block; width: auto; height: 48px;" src="https://m.media-amazon.com/images/G/01/prime/dmorgen/Prime_Logo_RGB.png" alt="Prime" width="auto" height="48" border="0">
+                            </a>
+                          </div>
+                        </th>
+                        <th class="full block aligncenter" style="font-family: Ember, Arial,sans-serif; font-size: 12px !important; line-height: 14px !important; color: #232f3e; font-weight: bold; text-align: right; vertical-align: middle; white-space: nowrap;" align="right">
+                          <div style="display: inline-block;">
+                            <table style="display: inline-block;" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td style="font-family: Ember, Arial,sans-serif; font-size: 12px !important; line-height: 14px !important; color: #232f3e; font-weight: bold; text-align: right; vertical-align: middle; white-space: nowrap;" valign="middle">
+                                    <strong>&nbsp;&nbsp; 
+                                      <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=LKMKFOGWKDH&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fref%3Dpe_yourstore%2F%26ref_%3Dpe_62386810_674350900&amp;H=ZOLA6WN2ICNWEYPQEJUF7B9CAP4A&amp;ref_=pe_62386810_674350900" style="text-decoration: none; color: #232f3e; font-size: 12px !important; line-height: 14px !important;">Your&nbsp;Amazon</a>&nbsp;&nbsp; 
+                                      <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=30MSKXXQXVN8P&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fgoldbox%3Fref%3Dpe_todaysdeal%2F%26ref_%3Dpe_62386810_674350900&amp;H=CLL9ABCLEC65B8ITVJLWJJXYRAUA&amp;ref_=pe_62386810_674350900" style="text-decoration: none; color: #232f3e; font-size: 12px !important; line-height: 14px !important;">
+                                        <span class="hide" style="">Today's&nbsp;</span>Deals
+                                      </a>&nbsp;&nbsp; 
+                                      <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=W2VX03ADW8C1&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fb%3Fnode%3D21430372011%26ref_%3Dpe_62386810_674350900_mm_1_email%2C&amp;H=C5PI0S3H8UUICPXRUABCN1PDETIA&amp;ref_=pe_62386810_674350900_mm_1_email" style="color: #232f3e; text-decoration: none; font-size: 12px !important; line-height: 14px !important;">Amazon&nbsp;App</a>
+                                    </strong>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td style="line-height: 12px;" height="12">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=1MNJB1YFW3AO7&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fref_%3Dpe_62386810_674350900_pe_Hero&amp;H=DT3PBWHQN99BRDTMY7JWGYXS4WWA&amp;ref_=pe_62386810_674350900_pe_Hero">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_Hero_DO2_001._CB609099256_.jpg" alt="DES17-Hero-4_img_alt_text" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">
+                                  <table class="width_90" style="border-spacing: 0; text-align: center; width: 628px;" border="0" width="628" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="line-height: 6px;" height="6">
+                                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="text-align: center; padding: 0 !important;" align="center">
+                                          <span style="color: #232f3e; text-decoration: none; font-family: Ember, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;">Prime Early Access Sale is now live. Dive into two days of holiday savings for Prime members. Deals continue through October 12 at midnight PT.</span>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+      <!-- [if (gte mso 9)|(IE)]>
+      <table cellpadding="0" cellspacing="0" border="0" width="612" align="center">
+      <tr>
+      <td>
+      <![endif]-->
+                  <table style="border-spacing: 0; margin: 0 auto; width: 100%; max-width: 612px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center;" align="center"><!-- [if (gte mso 9)|(IE)]>
+          <table cellpadding="0" cellspacing="0" border="0" width="153" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+                          <div style="width: 100%; max-width: 246px; display: inline-block; vertical-align: top; margin: 0 auto;">
+                            <table style="border-spacing: 0;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td style="width: 100%; min-width: 142px; max-width: 246px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; border: 1px solid ffd814; white-space: nowrap;" align="center" bgcolor="ffd814" height="42">
+                                    <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=ID8Z4NPJ921Q&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fref_%3Dpe_62386810_674350900_pe_btn&amp;H=3ZACAJW6DHAXNCX4Z5QOKHQ5PVIA&amp;ref_=pe_62386810_674350900_pe_btn" style="font-size: 14px; font-family: Ember, Helvetica, Arial, sans-serif; color: #232f3e; text-decoration: none; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 12px 12px; display: block;">
+                                      <strong>Shop now</strong>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+      <!-- [if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+      <!-- [if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]--><!-- [if (gte mso 9)|(IE)]>
+      <table cellpadding="0" cellspacing="0" border="0" width="612" align="center">
+      <tr>
+      <td>
+      <![endif]-->
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 100%; max-width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0; text-align: center; font-size: 0;">
+                          <table style="border-spacing: 0;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td align="left"><!-- [if (gte mso 9)|(IE)]>
+                  <table cellpadding="0" cellspacing="0" border="0" width="208" align="left">
+                  <tr>
+                  <td>
+                  <![endif]-->
+                                  <table class="full" style="max-width: 208px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+                                    <tbody>
+                                      <tr>
+                                        <td class="width52" style="line-height: 2px; font-size: 2px;" bgcolor="#232F3E" width="208" height="2">
+                                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" alt="= = = = = = = = = = = = = = = = = = = =" width="1" height="1">
+                                        </td>
+                                        <td class="width12" style="line-height: 2px; font-size: 2px;" width="24" height="2">
+                                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width="1" height="1">
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+      <!-- [if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                                </td>
+                                <td style="width: 200px;" align="center" width="200">
+                                  <span style="color: #232f3e; text-decoration: none; font-family: Ember, Helvetica, sans-serif; font-size: 14px; line-height: 16px; font-weight: normal;">
+                                    <strong>More deals and Prime membership benefits</strong>
+                                  </span>
+                                </td>
+                                <td align="right"><!-- [if (gte mso 9)|(IE)]>
+                  <table cellpadding="0" cellspacing="0" border="0" width="208" align="right">
+                  <tr>
+                  <td>
+                  <![endif]-->
+                                  <table class="full" style="max-width: 208px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+                                    <tbody>
+                                      <tr>
+                                        <td class="width12" style="line-height: 2px; font-size: 2px;" width="24" height="2">
+                                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width="1" height="1">
+                                        </td>
+                                        <td class="width52" style="line-height: 2px; font-size: 2px;" bgcolor="#232F3E" width="208" height="2">
+                                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" alt="= = = = = = = = = = = = = = = = = = = =" width="1" height="1">
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+      <!-- [if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+      <!-- [if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=1GO5L40F6SYUN&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fdeals-widget%3D%25257B%252522presetId%252522%3A%252522deals-collection-computers-and-accessories%252522%25257D%26ref_%3Dpe_62386810_674350900_pe_computer&amp;H=038A3YV3FNNESTCG3UR0FOVNAGKA&amp;ref_=pe_62386810_674350900_pe_computer">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_001.jpg" alt="Big savings on Computer &amp; Video Games" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=229WVIPNIIBP6&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fdeals-widget%3D%25257B%252522presetId%252522%3A%252522deals-collection-kitchen%252522%25257D%26ref_%3Dpe_62386810_674350900_pe_kitchen&amp;H=YRBJJSMAFJSHXCRIYOGOMRXG6H4A&amp;ref_=pe_62386810_674350900_pe_kitchen">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_002.jpg" alt="Holiday deals in Home &amp; Kitchen" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=22V4WXHJ60RL0&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Ffashion-sales-and-deals%2Fb%3Fie%3DUTF8%26node%3D9538491011%26ref_%3Dpe_62386810_674350900_pe_fashion&amp;H=YCLX8MSTK8VJ7IVQWPRAN4GHJROA&amp;ref_=pe_62386810_674350900_pe_fashion">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_003.jpg" alt="Trending fashion deals" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=2BF2LE7QEJU0Q&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2F%2Fholidaygifting%3Fref_%3Dpe_62386810_674350900_pe_Giftguide2&amp;H=OYBFIWRSLNSG2AATTZJ9H000XHMA&amp;ref_=pe_62386810_674350900_pe_Giftguide2">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/LU/02/PEAS_Email_LU_002_Banner_002_ALT._CB610026589_.jpg" alt="Shop the holiday gift guide" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=38J2HB8EEIOBK&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fdeals-widget%3D%25257B%252522presetId%252522%3A%252522deals-collection-toys%252522%25257D%26ref_%3Dpe_62386810_674350900_pe_toys&amp;H=RLXRGSA1UQFAHKU1LSY0ICLE4W8A&amp;ref_=pe_62386810_674350900_pe_toys">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_004.jpg" alt="Big savings on toys that kids love" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=3VTG537604ZU1&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fdeals-widget%3D%25257B%252522presetId%252522%3A%252522deals-collection-tv-and-home-audio%252522%25257D%26ref_%3Dpe_62386810_674350900_pe_TV&amp;H=KER5VBXFMVKKLVYLPCSGVZHZGC0A&amp;ref_=pe_62386810_674350900_pe_TV">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_005.jpg" alt="Epic deals on TV &amp; Home Audio" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr class="block_wrap">
+                        <th align="center">
+                          <table class="full" style="border-spacing: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="alignCenter" style="vertical-align: top; font-size: 0; line-height: 0; padding: 0 !important;" align="center" valign="top">
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=2BHY0B7CDVJGC&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fearlyaccess%3Fdeals-widget%3D%25257B%252522presetId%252522%3A%252522deals-collection-health-and-household%252522%25257D%26ref_%3Dpe_62386810_674350900_pe_Everyday&amp;H=WPINPG8QUXZ4KI3OHWLB6DBNPXYA&amp;ref_=pe_62386810_674350900_pe_Everyday">
+                                    <img class="full" style="border: 0; width: 640px; height: auto;" src="https://m.media-amazon.com/images/G/01/DiscoTec/2022/PEAS/email/DAY2/PEAS_Email_DO2_001_Banner_006.jpg" alt="Everyday Essentials Stock up and save for the holidays" width="640" height="auto">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="full" style="width: 640px; border-spacing: 0; border-collapse: collapse; border-width: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0;" border="0" width="640" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr bgcolor="#ffffff">
+                                <td style="font-size: 0; line-height: 0; vertical-align: middle;" align="center" valign="middle">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="border-spacing: 0;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td height="24">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="line-height: 1px;" bgcolor="#cccccc" height="1">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" alt="= = = = = = = = = = = = = = = = = = = =" width="1" height="1">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="line-height: 10px;" height="10">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0; text-align: center; font-size: 0;">
+                          <table class="full" style="width: 612px;" border="0" width="612" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <div class="full" style="width: 306px; display: inline-block;">
+                                    <table border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#ffffff">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left">
+                                            <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=2YJ41U7SDG1FH&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fref%3Dpe_62386810_674350900_pe_footer_amazonlogo%2F&amp;H=3QWVKKTOKFOAQNGXEKYA97MAXFCA&amp;ref_=pe_62386810_674350900_pe_footer_amazonlogo" target="_blank" rel="noopener">
+                                              <img style="display: block; width: 93px; height: auto;" src="https://m.media-amazon.com/images/G/01/logo/a_com_logo_220x96v2._V516822156_.jpg" alt="Amazon.com" width="93" height="auto" border="0">
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                                <td align="right">
+                                  <div class="full" style="width: 306px; display: inline-block;">
+                                    <table border="0" cellspacing="0" cellpadding="0" align="right" bgcolor="#ffffff">
+                                      <tbody>
+                                        <tr>
+                                          <td width="10">
+                                            <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                                          </td>
+                                          <td>
+                                            <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=1LDWQQTDUV7SA&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_62386810_674350900_pe_facebook_footer%2F%3Flocation%3Dhttp%3A%2F%2Fwww.facebook.com%2FAmazon%26token%3DBC8893C697F61517994AF0EDFA6B868DFACCD919%26source%3Dstandards&amp;H=LBYVYT81ANZ9RPNEXIUFRDK1CFKA&amp;ref_=pe_62386810_674350900_pe_facebook_footer" target="_blank" rel="noopener">
+                                              <img style="display: block; width: 30px; height: 30px;" src="https://m.media-amazon.com/images/G/01/email/logo/facebook_3x._V506710935_.jpg" alt="facebook" width="30" height="30" border="0">
+                                            </a>
+                                          </td>
+                                          <td width="10">
+                                            <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                                          </td>
+                                          <td>
+                                            <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=3I0FF3ZH0MBLE&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_62386810_674350900_pe_twitter_footer%2F%3Flocation%3Dhttp%3A%2F%2Ftwitter.com%2Famazon%26token%3D31765BA1ADB98DFFD174431508FE50D7354F3AC9%26source%3Dstandards&amp;H=TSN8BAAKPISMFGFEGC57D4G7NHWA&amp;ref_=pe_62386810_674350900_pe_twitter_footer" target="_blank" rel="noopener">
+                                              <img style="display: block; width: 30px; height: 30px;" src="https://m.media-amazon.com/images/G/01/email/logo/twitter_3x._V506607860_.jpg" alt="twitter" width="30" height="30" border="0">
+                                            </a>
+                                          </td>
+                                          <td width="10">
+                                            <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                                          </td>
+                                          <td>
+                                            <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=3KZZ75P5K9G2U&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_62386810_674350900_pe_pinterest_footer%2F%3Flocation%3Dhttp%3A%2F%2Fwww.pinterest.com%2Famazon%26token%3DF97FDF1D770C983C5E3B6E6DEE9C64303F192AEF%26source%3Dstandards&amp;H=7GAXAIFZHAZ2VQJRVFTTBHIW2HWA&amp;ref_=pe_62386810_674350900_pe_pinterest_footer" target="_blank" rel="noopener">
+                                              <img style="display: block; width: 30px; height: 30px;" src="https://m.media-amazon.com/images/G/01/email/logo/pintrest_3x._V506607644_.jpg" alt="pinterest" width="30" height="30" border="0">
+                                            </a>
+                                          </td>
+                                          <td width="10">
+                                            <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                                          </td>
+                                          <td>
+                                            <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=WVBDAOY15N61&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fredirect.html%2Fref%3Dpe_62386810_674350900_pe_instagram_footer%2F%3Flocation%3Dhttps%3A%2F%2Fwww.instagram.com%2Famazon%2F%26token%3D5FBCFFC0FA9C90EC09F12A5912432F1F2A788179%26source%3Dstandards&amp;H=VRPTBCKACU7GJNPLICFADBFPHXKA&amp;ref_=pe_62386810_674350900_pe_instagram_footer" target="_blank" rel="noopener">
+                                              <img style="display: block; width: 30px; height: 30px;" src="https://m.media-amazon.com/images/G/01/email/logo/instagram_3x._V506607644_.jpg" alt="instagram" width="30" height="30" border="0">
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="line-height: 10px;" height="10">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="container" style="border-spacing: 0; margin: 0 auto; width: 100%; max-width: 640px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="line-height: 10px;" height="10">
+                          <img style="display: block; border: 0;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img14/kc/sp.gif" width="1" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="width_90" style="border-spacing: 0; margin: 0 auto; width: 612px;" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0; text-align: center; font-size: 0;">
+                          <table style="border-spacing: 0;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td style="font-family: Ember, Arial, sans-serif; font-size: 10px; color: #666666;" align="left" valign="top">We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from 
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=8ZOEHPJFL13A&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fref%3Dpe_62386810_674350900_pe_sef_logo&amp;H=2WFHROMN882CMBFTKUFLAJQBAFMA&amp;ref_=pe_62386810_674350900_pe_sef_logo" style="color: #666666; text-decoration: underline;">Amazon.com</a>, please 
+                                  <a href="https://www.amazon.com/gp/f.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=2948D5FZWIMPL&amp;T=X&amp;U=https%3A%2F%2Fwww.amazon.com%2F%2Fgp%2Fgss%2Fo%2F1t4RXM6cSF6AZ98a4WYuJ0M-SKalPSeGtMGcY4yq9tiH1lNm0GXywtUbEIZfK9Sz3&amp;H=KMGS3FKHBIJUWA5NLXTKN8UCK2IA" style="color: #666666; text-decoration: underline;">opt-out here</a>. 
+                                  <br>
+                                  <br>Please note that product prices and availability are subject to change. Prices and availability were accurate at the time this newsletter was sent; however, they may differ from those you see when you visit 
+                                  <a href="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=37R6AO699LSYA&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fref%3Dpe_62386810_674350900_pe_sef_logo&amp;H=AO4GPW7S29HIAO08ZOGRZHGNT4GA&amp;ref_=pe_62386810_674350900_pe_sef_logo" style="color: #666666; text-decoration: underline;">Amazon.com</a>. 
+                                  <br>
+                                  <br>© 2022 Amazon.com, Inc. or its affiliates. All rights reserved. Amazon, Amazon.com, the Amazon.com logo, and 1-Click are registered trademarks of Amazon.com, Inc. or its affiliates. Amazon.com, 410 Terry Avenue N., Seattle, WA 98109-5210. Reference: 674350900 
+                                  <br>
+                                  <br>Please note that this message was sent to the following e-mail address: ibrahim.iqbal490@gmail.com
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="hide">
+                  <div style="letter-spacing: 636px; line-height: 0; mso-hide: all;">&nbsp;</div>
+                  <table border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="line-height: 1px; min-width: 640px;" height="1">
+                          <img style="max-height: 1px; min-height: 1px; display: block; width: 640px; min-width: 640px;" src="http://g-ecx.images-amazon.com/images/G/01/e-mail/img/softlines/sp.gif" width="640" height="1">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="hide">
+                  <div style="display: none; white-space: nowrap; font: 15px courier; line-height: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+        <img src="https://www.amazon.com/gp/r.html?C=3QCWUUUUE2A08&amp;K=113H7RK8D92VE&amp;M=urn:rtn:msg:20221012153444ca8d2218643d40a383bc1cc4bd60p0na&amp;R=3ID6XETTMTINA&amp;T=E&amp;U=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&amp;H=LCQBRAYDFQ30ZIIXLCJQ0CS9WX0A&amp;ref_=pe_62386810_674350900_open" width="1" height="1">
+      </div>
+      
+</body>
+</html>
